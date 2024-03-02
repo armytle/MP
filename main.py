@@ -219,8 +219,6 @@ def play(event=None, now=None):
         time_start.config(text="00:00")
         my_slider.config(value=0)
 
-        time_start.config(text="00:00")
-        my_slider.config(value=0)
         cre_listsong(playlist, interior, True)
         play_button.config(image=pause_btn_img)
         paused = False
